@@ -1,0 +1,6 @@
+Week 1 – Basic DOM & Layout Thinking
+
+- ฝึกใช้ DOM selector + event เบื้องต้น
+  - กดปุ่ม View detail → เปลี่ยนข้อความใน <div id="detail">
+  - กด Highlight → เปลี่ยนสไตล์ element (backgroundColor)
+- เข้าใจการ map ข้อมูลใน array → แสดงบนหน้า
