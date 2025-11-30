@@ -1,0 +1,13 @@
+Week 5 – JavaScript Date/Time & Time-Based Rules
+
+- ใช้ JavaScript Date แบบจริงจัง:
+    - แปลง string ISO ("2025-12-30T13:00:00+07:00") → Date
+    - แสดงเวลาแบบ locale ด้วย toLocaleString('th-TH', { timeZone: 'Asia/Bangkok' })
+- ออกแบบ Registration Window ที่ขึ้นกับเวลา
+    - ฟังก์ชัน isRegistrationOpen(now, openTime, closeTime)
+    - ถ้าอยู่ในช่วง → แสดง “Registration is OPEN…”
+    - นอกช่วง → “Registration is CLOSED…”
+- ผูก Date/Time เข้าไปใน logic ของระบบ
+    - กำหนด start / end ให้แต่ละ workshop → ตีความว่า
+        - ENDED / IN PROGRESS / STARTING SOON
+- เห็นภาพว่า เวลา (Date/Time) ไม่ใช่แค่ string ธรรมดา แต่เอามาเปรียบเทียบ, เช็กเงื่อนไข, คุม flow การทำงานได้

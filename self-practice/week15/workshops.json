@@ -1,0 +1,20 @@
+[
+  {
+    "id": "ws1",
+    "title": "Intro to JavaScript",
+    "level": "Beginner",
+    "description": "Learn the basics of JS."
+  },
+  {
+    "id": "ws2",
+    "title": "UI Design Basics",
+    "level": "Intermediate",
+    "description": "Understand essential UI principles."
+  },
+  {
+    "id": "ws3",
+    "title": "REST API with Node.js",
+    "level": "Advanced",
+    "description": "Build APIs using Node.js and Express."
+  }
+]
