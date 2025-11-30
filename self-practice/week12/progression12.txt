@@ -1,0 +1,9 @@
+Week 2 – Frontend State & Form Handling
+
+- เพิ่ม ฟอร์มลงทะเบียน (name + workshop) และจัดการ submit ด้วย JS
+- ฝึกเก็บข้อมูลฝั่ง frontend ด้วย array ของ object (registrations)
+- ฝึก validation พื้นฐาน
+    - เช็กว่ากรอกชื่อหรือยัง
+    - เช็กว่ามีการเลือก workshop หรือยัง
+    - ป้องกันการลงทะเบียนซ้ำ (ตรวจจาก state ก่อน push)
+- Render รายการ registrations ให้สัมพันธ์กับ state (คิดแนว re-render list ใหม่ทุกครั้งที่ข้อมูลเปลี่ยน)
