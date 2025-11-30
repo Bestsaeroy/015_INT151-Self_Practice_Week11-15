@@ -1,0 +1,11 @@
+Week 13 – Fetch & Working with JSON (Mock API)
+
+- ใช้ fetch() อ่านข้อมูลจากไฟล์ workshops.json (จำลอง backend)
+- ฝึกโฟลว์โหลดข้อมูลจริงจังขึ้น:
+    - แสดงข้อความ “Loading workshops…” ระหว่างรอ
+    - ถ้า error (เช่น URL ผิด / HTTP status ไม่โอเค) → แสดงข้อความ error บนหน้า + console.error
+- แยกโค้ดให้ชัดเจนขึ้นเป็นฟังก์ชัน
+    - loadWorkshops() โหลดข้อมูล
+    - renderWorkshops() วาด list จาก data
+    - fillWorkshopSelect() เติม <select> จากข้อมูลที่โหลดมา
+- เห็นภาพการเชื่อมต่อ data (JSON) → UI → interaction

@@ -1,4 +1,4 @@
-Week 1 – Basic DOM & Layout Thinking
+Week 11 – Basic DOM & Layout Thinking
 
 - ฝึกใช้ DOM selector + event เบื้องต้น
   - กดปุ่ม View detail → เปลี่ยนข้อความใน <div id="detail">

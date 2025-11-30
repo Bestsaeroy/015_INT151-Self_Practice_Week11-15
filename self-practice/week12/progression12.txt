@@ -1,4 +1,4 @@
-Week 2 – Frontend State & Form Handling
+Week 12 – Frontend State & Form Handling
 
 - เพิ่ม ฟอร์มลงทะเบียน (name + workshop) และจัดการ submit ด้วย JS
 - ฝึกเก็บข้อมูลฝั่ง frontend ด้วย array ของ object (registrations)

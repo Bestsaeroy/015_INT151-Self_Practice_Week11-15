@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Week 3 - SelfPractice</title>
+</head>
+<body>
+  <h1>SelfPractice (Week 3)</h1>
+
+  <h2>Workshops</h2>
+  <div id="loading-message">Loading workshops...</div>
+  <div id="error-message" style="color:red;"></div>
+  <div id="workshop-list"></div>
+
+  <h2>Workshop Detail</h2>
+  <div id="detail">
+    Select a workshop to see detail here.
+  </div>
+
+  <h2>Register</h2>
+  <form id="register-form">
+    <div>
+      <label>
+        Your name:
+        <input type="text" id="user-name" />
+      </label>
+    </div>
+    <div>
+      <label>
+        Workshop:
+        <select id="workshop-select">
+          <option value="">-- Select workshop --</option>
+        </select>
+      </label>
+    </div>
+    <button type="submit">Register</button>
+    <div id="form-error" style="color:red;"></div>
+  </form>
+
+  <h3>Registrations</h3>
+  <ul id="registration-list"></ul>
+
+  <script src="main.js"></script>
+</body>
+</html>
