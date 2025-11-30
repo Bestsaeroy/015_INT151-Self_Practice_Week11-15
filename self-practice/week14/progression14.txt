@@ -1,0 +1,9 @@
+Week 4 – UX Flow, Custom Dialog & Error Handling Logic
+
+- ออกแบบ flow “ยกเลิกการลงทะเบียน” ให้มีหลายขั้นตอน (เลือก, ยืนยัน, ลบ, handle error)
+- สร้าง dialog เองด้วย HTML + JS (ไม่พึ่ง alert)
+    - openConfirmDialog(message, onConfirm)
+    - closeonfirmDialog()
+- จำลอง backend error ผ่าน fakeCancelApi()
+    - เคส CANNOT_CANCEL_PAST / NOT_FOUND แล้วแสดงข้อความให้ผู้ใช้เข้าใจ
+- ฝึกแยก “logic ของระบบ” (เช่น กฎว่ายกเลิกไม่ได้) ออกจาก “การแสดงผล” (ข้อความบนหน้า) ให้เป็นระเบียบ
